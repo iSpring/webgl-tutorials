@@ -1,0 +1,31 @@
+{
+  "name": "webgl-tutorials",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "prestart": "npm run clean",
+    "start": "webpack --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iSpring/webgl-tutorials.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iSpring/webgl-tutorials/issues"
+  },
+  "homepage": "https://github.com/iSpring/webgl-tutorials#readme",
+  "devDependencies": {
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^2.30.1",
+    "rimraf": "^2.6.2",
+    "shader-loader": "^1.3.1",
+    "source-map-loader": "^0.2.3",
+    "ts-loader": "^3.5.0",
+    "typescript": "^2.7.2",
+    "webpack": "^3.11.0"
+  }
+}
